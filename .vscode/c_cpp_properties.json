@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/Jim/Documents/Arduino/hardware/espressif/esp32/cores/esp32/**",
+                "/Users/Jim/Documents/Arduino/hardware/espressif/esp32/libraries/**",
+                "/Users/Jim/Documents/Arduino/hardware/espressif/esp32/tools/sdk/include/**",
+                "/Users/Jim/Documents/Arduino/hardware/espressif/esp32/variants/kidbright",
+                "/Users/Jim/Documents/Arduino/libraries/Adafruit_GFX_Library/**",
+                "/Users/Jim/Documents/Arduino/libraries/kbxui/src/**"
+            ],
+            "defines": [ "ESP32=1" ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
